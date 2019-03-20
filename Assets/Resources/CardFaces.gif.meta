@@ -1,0 +1,1529 @@
+fileFormatVersion: 2
+guid: 7ed8c7fc57ebec34a8c814f006223482
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WZ9Od_0
+    21300002: WZ9Od_1
+    21300004: WZ9Od_2
+    21300006: WZ9Od_3
+    21300008: WZ9Od_4
+    21300010: WZ9Od_5
+    21300012: WZ9Od_6
+    21300014: WZ9Od_7
+    21300016: WZ9Od_8
+    21300018: WZ9Od_9
+    21300020: WZ9Od_10
+    21300022: WZ9Od_11
+    21300024: WZ9Od_12
+    21300026: WZ9Od_13
+    21300028: WZ9Od_14
+    21300030: WZ9Od_15
+    21300032: WZ9Od_16
+    21300034: WZ9Od_17
+    21300036: WZ9Od_18
+    21300038: WZ9Od_19
+    21300040: WZ9Od_20
+    21300042: WZ9Od_21
+    21300044: WZ9Od_22
+    21300046: WZ9Od_23
+    21300048: WZ9Od_24
+    21300050: WZ9Od_25
+    21300052: WZ9Od_26
+    21300054: WZ9Od_27
+    21300056: WZ9Od_28
+    21300058: WZ9Od_29
+    21300060: WZ9Od_30
+    21300062: WZ9Od_31
+    21300064: WZ9Od_32
+    21300066: WZ9Od_33
+    21300068: WZ9Od_34
+    21300070: WZ9Od_35
+    21300072: WZ9Od_36
+    21300074: WZ9Od_37
+    21300076: WZ9Od_38
+    21300078: WZ9Od_39
+    21300080: WZ9Od_40
+    21300082: WZ9Od_41
+    21300084: WZ9Od_42
+    21300086: WZ9Od_43
+    21300088: WZ9Od_44
+    21300090: WZ9Od_45
+    21300092: WZ9Od_46
+    21300094: WZ9Od_47
+    21300096: WZ9Od_48
+    21300098: WZ9Od_49
+    21300100: WZ9Od_50
+    21300102: WZ9Od_51
+    21300104: WZ9Od_52
+    21300106: WZ9Od_53
+    21300108: WZ9Od_54
+    21300110: WZ9Od_55
+    21300112: WZ9Od_56
+    21300114: WZ9Od_57
+    21300116: WZ9Od_58
+    21300118: WZ9Od_59
+    21300120: WZ9Od_60
+    21300122: WZ9Od_61
+    21300124: WZ9Od_62
+    21300126: WZ9Od_63
+    21300128: WZ9Od_64
+    21300130: CardFaces_0
+    21300132: CardFaces_1
+    21300134: CardFaces_2
+    21300136: CardFaces_3
+    21300138: CardFaces_4
+    21300140: CardFaces_5
+    21300142: CardFaces_6
+    21300144: CardFaces_7
+    21300146: CardFaces_8
+    21300148: CardFaces_9
+    21300150: CardFaces_10
+    21300152: CardFaces_11
+    21300154: CardFaces_12
+    21300156: CardFaces_13
+    21300158: CardFaces_14
+    21300160: CardFaces_15
+    21300162: CardFaces_16
+    21300164: CardFaces_17
+    21300166: CardFaces_18
+    21300168: CardFaces_19
+    21300170: CardFaces_20
+    21300172: CardFaces_21
+    21300174: CardFaces_22
+    21300176: CardFaces_23
+    21300178: CardFaces_24
+    21300180: CardFaces_25
+    21300182: CardFaces_26
+    21300184: CardFaces_27
+    21300186: CardFaces_28
+    21300188: CardFaces_29
+    21300190: CardFaces_30
+    21300192: CardFaces_31
+    21300194: CardFaces_32
+    21300196: CardFaces_33
+    21300198: CardFaces_34
+    21300200: CardFaces_35
+    21300202: CardFaces_36
+    21300204: CardFaces_37
+    21300206: CardFaces_38
+    21300208: CardFaces_39
+    21300210: CardFaces_40
+    21300212: CardFaces_41
+    21300214: CardFaces_42
+    21300216: CardFaces_43
+    21300218: CardFaces_44
+    21300220: CardFaces_45
+    21300222: CardFaces_46
+    21300224: CardFaces_47
+    21300226: CardFaces_48
+    21300228: CardFaces_49
+    21300230: CardFaces_50
+    21300232: CardFaces_51
+    21300234: CardFaces_52
+    21300236: CardFaces_53
+    21300238: CardFaces_54
+    21300240: CardFaces_55
+    21300242: CardFaces_56
+    21300244: CardFaces_57
+    21300246: CardFaces_58
+    21300248: CardFaces_59
+    21300250: CardFaces_60
+    21300252: CardFaces_61
+    21300254: CardFaces_62
+    21300256: CardFaces_63
+    21300258: CardFaces_64
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CardFaces_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197fcc26d1100f3439b476ef33094445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9365cb8a469df449bd7abbbadcebfec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03065aa388a778748b2cca7154e26404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfc1e4271a7011459d83f236ec34ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49f65e8a4333c349ac205e06a71ba5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30afb14c5bede134fb187f241f5e8672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598c4b8c10d202a44ad0fb33386b71ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_7
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be75d8239811d0e4f9557fd8ee595d6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2232045b4949c314bbf2051d99526e90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_9
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e4ab5307409d4198b585c259316cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_10
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39101d426e332c04aaab02e71ee80468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d281326ef5faa884f8b6e1d2a0b1e0c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_12
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 470
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a725ebfd0c78a4e8c5b2ed5543b20b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f03a16329c7a014383433a31c71d1b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf6e233b872dc740abe970fd880946c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8314cbc7f1b0f854bb3a3a8ee9c15fa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_16
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e9c0e55c776e941be0e9fc8ae34dd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc1cf17da45c3440ab1f29e82638d8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_18
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fb751897c1a4641a62638596ae6f62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_19
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f474f37b64dfee84f93a84094f0f19de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_20
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44810c54f76efa240947fe851f7e4fd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_21
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910358f0e14f64b47b543d474cfd3e68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_22
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb3dcab4ed628746a5763781a1011db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_23
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e12ec43998b82c4d9d96c95947db0f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_24
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f32271970bbd142ac35acb4448d216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_25
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 353
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4300d3515f1e6814c9f093284b6c8b5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996829ecda99ef54bb24f93fcdf3977d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cd01d48f350164fa554204b1f9cd2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_28
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dada8693cddc1348a8f6337249bf106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_29
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79be179ca73b2474982177dac252a873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fed158047692a345bd97387efeaba03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_31
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6ead3a9ffcd21419f6102555a518d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_32
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d75478b7acf634997bac8245cced44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_33
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35173368547b5647831effb37b481c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09504199123b5548afb6545a43e9578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_35
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571b032b29e00f64f9bc589690d98acb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_36
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ef7a99c2507a24481c7278f7039bd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_37
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968416d48cf29dc4ca052daa61024d6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_38
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 236
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0cfab094853ab42a21c90fe6637a28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd008e97b9006654bb552bc010a0ace4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_40
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9285b480befec468e1bd12a544b25a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_41
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffb2ab09a8526647a8cef747ac00a13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_42
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd8573e32200b746903d03f2b0512e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_43
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57497b6d5cdbb7b4a8bcb73c3fac406f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_44
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5975ea22213a52f4dbd2f9811e20fc5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_45
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b3d95669bd63e488cfededb2c67aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_46
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d19a4f16b8c9b4db6e6dda74237aec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_47
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab765cc76c99ed942a7ab7a82e334fa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_48
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aab64d59e6ba24992dc856bcc8b239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_49
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afc6fadab131754d8932fa2db9cbf61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_50
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e508d8ebfca4f499e95f7c7e4cea3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_51
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 119
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e170c23d4e2da458c5e41b26066b25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a488587c8775f54bb10a75407155099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668e521f2bff2014887c68238b386570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_54
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41cfd84993cadf4bb57da75d8bdcfed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_55
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcad9328b8ca444c99f5abc06584f26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_56
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3489543a41369944acb235dd7d80393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_57
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be49a186983db4d908bf8ebbad3019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_58
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c3fb6f43c7ef429c1584395da4a99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_59
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98835a5f323cd9498c90651ef6cbc6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_60
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aa647eeb6931b459c80f1d7d537b0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_61
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3838d05c423894544a0a5d8b5e96f59f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_62
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7e4bab08352424890d1a7c7d2205ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_63
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efea570948f5d34093999b93f781034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardFaces_64
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 2
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7883fa8e6d4f303409c59fe01e6c2700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cb6da918344907343910b598a990952d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

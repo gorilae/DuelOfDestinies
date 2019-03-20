@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Matching Game.unity
+- path: Assets/Scenes/Simon Says.unity
   isLoaded: 1
   isActive: 1
