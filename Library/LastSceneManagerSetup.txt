@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Simon Says.unity
+- path: Assets/Scenes/Tic-Tac-Toe.unity
   isLoaded: 1
   isActive: 1

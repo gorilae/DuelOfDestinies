@@ -36,7 +36,7 @@ public class SceneController : MonoBehaviour {
 
     private int[] GetCardIDs()
     {
-        int[] integerArray = CreateIntegerArray(52);
+        int[] integerArray = CreateIntegerArray(4);
         int[] shuffledDeck = ShuffleArray(integerArray);
         int[] topCards = GetFirstValues<int>(shuffledDeck, gridRows * gridCols/2);
         int[] shownCards = AppendArray<int>(topCards, topCards);
