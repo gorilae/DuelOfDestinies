@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\MatchingGame\MemoryCard.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\SceneController.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\UIButton.cs" />
+    <Compile Include="Assets\Scripts\Quickdraw\SceneControllerQD.cs" />
     <Compile Include="Assets\Scripts\SimonSays\ButtonControllerSS.cs" />
     <Compile Include="Assets\Scripts\SimonSays\GameManagerSS.cs" />
     <Compile Include="Assets\Scripts\Tic-Tac-Toe\GameControllerTTT.cs" />
