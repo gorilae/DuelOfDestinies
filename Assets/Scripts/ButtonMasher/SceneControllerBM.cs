@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SceneControllerBM : MonoBehaviour
 {
@@ -9,8 +10,18 @@ public class SceneControllerBM : MonoBehaviour
     private int randomKey;
     private KeyCode player1Key;
     private KeyCode player2Key;
+    private SpriteRenderer player1Button;
+    private SpriteRenderer player2Button;
 
     public int goaltotal;
+    public Text player1Text;
+    public Text player2Text;
+    public Text player1TotalText;
+    public Text player2TotalText;
+    public Sprite playerActive;
+    public Sprite playerInactive;
+    public GameObject player1Object;
+    public GameObject player2Object;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +29,7 @@ public class SceneControllerBM : MonoBehaviour
         player1total = 0;
         player2total = 0;
         randomKey = Random.Range(0, 4);
-
+        
         //Default Key Presser
         player1Key = KeyCode.W;
         player2Key = KeyCode.UpArrow;
@@ -39,6 +50,14 @@ public class SceneControllerBM : MonoBehaviour
             player1Key = KeyCode.D;
             player2Key = KeyCode.RightArrow;
         }
+
+        player1Text.text = GetPlayer1Key();
+        player2Text.text = GetPlayer2Key();
+
+        player1Button = player1Object.GetComponent<SpriteRenderer>();
+        player2Button = player2Object.GetComponent<SpriteRenderer>();
+        SetPlayerSpriteActive();
+
     }
 
     // Update is called once per frame
@@ -46,20 +65,26 @@ public class SceneControllerBM : MonoBehaviour
     {
         if(!GameOver())
         {
-            if(Input.GetKeyDown(player1Key))
+            if (Input.GetKeyDown(player1Key))
             {
                 player1total++;
+                player1TotalText.text = player1total.ToString();
             }
-            if(Input.GetKeyDown(player2Key))
+            if (Input.GetKeyDown(player2Key))
             {
                 player2total++;
+                player2TotalText.text = player2total.ToString();
             }
+        }
+        if(GameOver())
+        {
+            SetPlayerSpriteInactive();
         }
     }
 
-    public bool GameOver()
+    private bool GameOver()
     {
-        if(player1total==goaltotal || player2total==goaltotal)
+        if(player1total>=goaltotal || player2total>=goaltotal)
         {
             return true;
         }
@@ -111,7 +136,16 @@ public class SceneControllerBM : MonoBehaviour
         //Default response
         return "up";
     }
-}
-}
-}
+
+    private void SetPlayerSpriteActive()
+    {
+        player1Button.sprite = playerActive;
+        player2Button.sprite = playerActive;
+    }
+
+    private void SetPlayerSpriteInactive()
+    {
+        player1Button.sprite = playerInactive;
+        player2Button.sprite = playerInactive;
+    }
 }
