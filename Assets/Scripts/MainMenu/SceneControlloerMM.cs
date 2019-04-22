@@ -5,14 +5,20 @@ using UnityEngine;
 public class SceneControlloerMM : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StartGame()
     {
-        
+        Application.LoadLevel("ButtonMasher");
+    }
+    public void EndGame()
+    {
+        Application.Quit();
     }
 }
