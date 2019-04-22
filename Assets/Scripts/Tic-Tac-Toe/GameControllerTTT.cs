@@ -129,12 +129,14 @@ public class GameControllerTTT : MonoBehaviour
         {
             SetBoardInteractable(false);
             SetGameOverText("X Wins!");
+            GameControllerDOD.Player1Wins += 1;
             return;
         }
         if (recordedWins[1].Equals(2))
         {
             SetBoardInteractable(false);
             SetGameOverText("O Wins!");
+            GameControllerDOD.Player2Wins += 1;
             return;
         }
         RestartGame();

@@ -15,6 +15,8 @@ public class SceneControlloerMM : MonoBehaviour
 
     public void StartGame()
     {
+        GameControllerDOD.Player1Wins = 0;
+        GameControllerDOD.Player2Wins = 0;
         Application.LoadLevel("CharacterSelect");
     }
     public void EndGame()

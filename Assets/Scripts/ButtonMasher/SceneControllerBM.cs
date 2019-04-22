@@ -18,6 +18,9 @@ public class SceneControllerBM : MonoBehaviour
     public Text player2Text;
     public Text player1TotalText;
     public Text player2TotalText;
+    public Text goalText;
+    public Text winText;
+    public Image winImage;
     public Sprite playerActive;
     public Sprite playerInactive;
     public GameObject player1Object;
@@ -60,9 +63,15 @@ public class SceneControllerBM : MonoBehaviour
 
     }
 
+    private void Awake()
+    {
+        winImage.enabled = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
+        goalText.text = goaltotal.ToString();
         if(!GameOver())
         {
             if (Input.GetKeyDown(player1Key))
@@ -86,6 +95,18 @@ public class SceneControllerBM : MonoBehaviour
     {
         if(player1total>=goaltotal || player2total>=goaltotal)
         {
+            if(player1total>=goaltotal)
+            {
+                winText.text = "Player 1 Wins!";
+                winImage.enabled = true;
+                GameControllerDOD.Player1Wins += 1;
+            }
+            else
+            {
+                winText.text = "Player 2 Wins!";
+                winImage.enabled = true;
+                GameControllerDOD.Player2Wins += 1;
+            }
             return true;
         }
         return false;
@@ -95,46 +116,46 @@ public class SceneControllerBM : MonoBehaviour
     {
         if(player1Key==KeyCode.W)
         {
-            return "w";
+            return "W";
         }
         else if (player1Key == KeyCode.A)
         {
-            return "a";
+            return "A";
         }
         else if (player1Key == KeyCode.S)
         {
-            return "s";
+            return "S";
         }
         else if (player1Key == KeyCode.D)
         {
-            return "d";
+            return "D";
         }
 
         //Default response
-        return "w";
+        return "W";
     }
 
     public string GetPlayer2Key()
     {
         if (player2Key == KeyCode.UpArrow)
         {
-            return "up";
+            return "UP";
         }
         else if (player2Key == KeyCode.LeftArrow)
         {
-            return "left";
+            return "LEFT";
         }
         else if (player2Key == KeyCode.DownArrow)
         {
-            return "down";
+            return "DOWN";
         }
         else if (player2Key == KeyCode.RightArrow)
         {
-            return "right";
+            return "RIGHT";
         }
 
         //Default response
-        return "up";
+        return "UP";
     }
 
     private void SetPlayerSpriteActive()

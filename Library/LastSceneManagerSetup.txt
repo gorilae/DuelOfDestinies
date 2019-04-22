@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/CharacterFight1.unity
+=======
+- path: Assets/Scenes/ButtonMasher.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
