@@ -86,6 +86,8 @@ public class SceneControllerCS : MonoBehaviour
     {
         player1Selection = true;
         background.sprite = player1Background;
+        player1Character = 99;
+        player2Character = 99;
     }
     private void Update()
     {
@@ -110,9 +112,9 @@ public class SceneControllerCS : MonoBehaviour
             player2Selector.enabled = false;
         }
 
-        if(player1Character!=null)
+        if(player1Character!=99)
         {
-            if(player2Character!=null)
+            if(player2Character!=99)
             {
                 charactersConfirmed.enabled = true;
             }
