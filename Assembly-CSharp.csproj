@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonMasher\SceneControllerBM.cs" />
+    <Compile Include="Assets\Scripts\CharacterSelect\SceneControllerCS.cs" />
     <Compile Include="Assets\Scripts\GameControllerDOD.cs" />
     <Compile Include="Assets\Scripts\MainMenu\SceneControlloerMM.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\GameManager.cs" />
@@ -68,7 +69,6 @@
     <Compile Include="Assets\Scripts\MatchingGame\MemoryCard.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\SceneController.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\UIButton.cs" />
-    <Compile Include="Assets\Scripts\Quickdraw\SceneControllerQD.cs" />
     <Compile Include="Assets\Scripts\SimonSays\ButtonControllerSS.cs" />
     <Compile Include="Assets\Scripts\SimonSays\GameManagerSS.cs" />
     <Compile Include="Assets\Scripts\Tic-Tac-Toe\GameControllerTTT.cs" />

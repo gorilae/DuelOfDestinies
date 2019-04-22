@@ -15,7 +15,7 @@ public class SceneControlloerMM : MonoBehaviour
 
     public void StartGame()
     {
-        Application.LoadLevel("ButtonMasher");
+        Application.LoadLevel("CharacterSelect");
     }
     public void EndGame()
     {

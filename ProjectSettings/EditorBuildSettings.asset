@@ -26,9 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MatchingGame.unity
     guid: 5f033b36df6e4054ea8b2fa3b5db3ba1
-  - enabled: 1
-    path: Assets/Scenes/Quickdraw.unity
-    guid: 0a6543e88a24dc047a702c8b57a17f25
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/SimonSays.unity
     guid: 2bda46c46cf65964bbeec73c911dbf7f
