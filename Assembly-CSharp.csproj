@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonMasher\SceneControllerBM.cs" />
+    <Compile Include="Assets\Scripts\GameControllerDOD.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\SceneControlloerMM.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\GameManager.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\GridSizeChoiceButton.cs" />
     <Compile Include="Assets\Scripts\MatchingGame\MemoryCard.cs" />
