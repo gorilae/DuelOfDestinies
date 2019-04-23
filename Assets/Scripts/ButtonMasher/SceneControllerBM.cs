@@ -12,6 +12,8 @@ public class SceneControllerBM : MonoBehaviour
     private KeyCode player2Key;
     private SpriteRenderer player1Button;
     private SpriteRenderer player2Button;
+    private bool startGame;
+    private bool endGame;
 
     public int goaltotal;
     public Text player1Text;
@@ -25,6 +27,12 @@ public class SceneControllerBM : MonoBehaviour
     public Sprite playerInactive;
     public GameObject player1Object;
     public GameObject player2Object;
+    public float instructionTime;
+    public Image instructionImage;
+    public Text instructionText;
+    public float endGameTime;
+    public Text player1Name;
+    public Text player2Name;
 
     // Start is called before the first frame update
     void Start()
@@ -66,28 +74,55 @@ public class SceneControllerBM : MonoBehaviour
     private void Awake()
     {
         winImage.enabled = false;
+        startGame = false;
+        instructionImage.enabled = true;
+        endGame = false;
+        player1Name.text = GameControllerDOD.Player1Name;
+        player2Name.text = GameControllerDOD.Player2Name;
     }
 
     // Update is called once per frame
     void Update()
     {
-        goalText.text = goaltotal.ToString();
-        if(!GameOver())
+        if (Input.GetKey("escape"))
         {
-            if (Input.GetKeyDown(player1Key))
+            Application.Quit();
+        }
+        instructionTime -= Time.deltaTime;
+        if(instructionTime<0)
+        {
+            startGame = true;
+            instructionText.text = "";
+            instructionImage.enabled = false;
+        }
+        if (startGame)
+        {
+            goalText.text = goaltotal.ToString();
+            if (!GameOver())
             {
-                player1total++;
-                player1TotalText.text = player1total.ToString();
+                if (Input.GetKeyDown(player1Key))
+                {
+                    player1total++;
+                    player1TotalText.text = player1total.ToString();
+                }
+                if (Input.GetKeyDown(player2Key))
+                {
+                    player2total++;
+                    player2TotalText.text = player2total.ToString();
+                }
             }
-            if (Input.GetKeyDown(player2Key))
+            if (GameOver())
             {
-                player2total++;
-                player2TotalText.text = player2total.ToString();
+                SetPlayerSpriteInactive();
             }
         }
-        if(GameOver())
+        if(endGame)
         {
-            SetPlayerSpriteInactive();
+            endGameTime -= Time.deltaTime;
+            if(endGameTime<0)
+            {
+                Application.LoadLevel("EndScreen");
+            }
         }
     }
 
@@ -100,12 +135,14 @@ public class SceneControllerBM : MonoBehaviour
                 winText.text = "Player 1 Wins!";
                 winImage.enabled = true;
                 GameControllerDOD.Player1Wins += 1;
+                endGame = true;
             }
             else
             {
                 winText.text = "Player 2 Wins!";
                 winImage.enabled = true;
                 GameControllerDOD.Player2Wins += 1;
+                endGame = true;
             }
             return true;
         }

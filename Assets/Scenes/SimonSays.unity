@@ -1882,6 +1882,9 @@ MonoBehaviour:
   startButton: {fileID: 519044211}
   winImage: {fileID: 292441859}
   winText: {fileID: 2140816838}
+  endGameTime: 5
+  player1Name: {fileID: 1521997185}
+  player2Name: {fileID: 757072806}
 --- !u!1 &2096678582
 GameObject:
   m_ObjectHideFlags: 0

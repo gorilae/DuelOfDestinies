@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ButtonMasher.unity
     guid: b55530450804c7841bf8b1e46c114f18
   - enabled: 1
-    path: Assets/Scenes/CharacterFight1.unity
+    path: Assets/Scenes/CharacterFight.unity
     guid: 9801bbed5c177a1429064cf10702b83b
   - enabled: 1
     path: Assets/Scenes/CharacterSelect.unity

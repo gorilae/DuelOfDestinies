@@ -28,6 +28,8 @@ public class SceneControllerCS : MonoBehaviour
     public Sprite btm;
     public Sprite pam;
     public Sprite tsuyoi;
+    public Text player1Name;
+    public Text player2Name;
 
     //Assume 0=Doctor, 1=Goki, 2=STICK, 3=BTM, 4=PAM, 5=Tsuyoi
     public void SetPlayerCharacter(int character)
@@ -36,11 +38,13 @@ public class SceneControllerCS : MonoBehaviour
         {
             player1Character = character;
             player1Image.sprite = GetCharacterSprite(character);
+            player1Name.text = GetCharacterName(character);
         }
         else
         {
             player2Character = character;
             player2Image.sprite = GetCharacterSprite(character);
+            player2Name.text = GetCharacterName(character);
         }
     }
 
@@ -53,7 +57,11 @@ public class SceneControllerCS : MonoBehaviour
     {
         GameControllerDOD.Player1Character = player1Image.sprite;
         GameControllerDOD.Player2Character = player2Image.sprite;
-        Application.LoadLevel("SimonSays");
+        GameControllerDOD.RoundNum = 1;
+        GameControllerDOD.RoundGame = "SS";
+        GameControllerDOD.Player1Name = GetCharacterName(player1Character);
+        GameControllerDOD.Player2Name = GetCharacterName(player2Character);
+        Application.LoadLevel("CharacterFight");
     }
 
     private Sprite GetCharacterSprite(int character)
@@ -81,6 +89,34 @@ public class SceneControllerCS : MonoBehaviour
         else
         {
             return tsuyoi;
+        }
+    }
+
+    private string GetCharacterName(int character)
+    {
+        if (character == 0)
+        {
+            return "Doctor";
+        }
+        if (character == 1)
+        {
+            return "Goki";
+        }
+        if (character == 2)
+        {
+            return "S.T.I.C.K.";
+        }
+        if (character == 3)
+        {
+            return "B.T.M.";
+        }
+        if (character == 4)
+        {
+            return "P.A.M.";
+        }
+        else
+        {
+            return "Tsuyoi";
         }
     }
 
@@ -128,6 +164,10 @@ public class SceneControllerCS : MonoBehaviour
         else
         {
             charactersConfirmed.enabled = false;
+        }
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
         }
     }
 }

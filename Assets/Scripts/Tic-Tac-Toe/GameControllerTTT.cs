@@ -11,11 +11,17 @@ public class GameControllerTTT : MonoBehaviour
     public Text[] buttonList;
     public GameObject gameOverPanel;
     public Text gameOverText;
+    public Image player1Character;
+    public Image player2Character;
+    public float endGameTime;
+    public Text player1Name;
+    public Text player2Name;
 
     private string playerSide;
     private int moveCount;
     private int[] recordedWins;
     private int roundNum;
+    private bool endGame;
 
     void Awake()
     {
@@ -24,6 +30,11 @@ public class GameControllerTTT : MonoBehaviour
         gameOverPanel.SetActive(false);
         moveCount = 0;
         SetBoardInteractable(true);
+        endGame = false;
+        player1Character.sprite = GameControllerDOD.Player1Character;
+        player2Character.sprite = GameControllerDOD.Player2Character;
+        player1Name.text = GameControllerDOD.Player1Name;
+        player2Name.text = GameControllerDOD.Player2Name;
 
         for (int i = 0; i < buttonList.Length; i++)
         {
@@ -33,6 +44,34 @@ public class GameControllerTTT : MonoBehaviour
         recordedWins = new int[2];
         recordedWins[0] = 0;
         recordedWins[1] = 0;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+        if (endGame)
+        {
+            endGameTime -= Time.deltaTime;
+            if(endGameTime<0)
+            {
+                if(recordedWins[0].Equals(2))
+                {
+                    GameControllerDOD.Player1Wins += 1;
+                    GameControllerDOD.RoundNum = 3;
+                    GameControllerDOD.RoundGame = "BM";
+                }
+                else
+                {
+                    GameControllerDOD.Player2Wins += 1;
+                    GameControllerDOD.RoundNum = 3;
+                    GameControllerDOD.RoundGame = "BM";
+                }
+                Application.LoadLevel("CharacterFight");
+            }
+        }
     }
 
     public void RestartGame()
@@ -129,14 +168,14 @@ public class GameControllerTTT : MonoBehaviour
         {
             SetBoardInteractable(false);
             SetGameOverText("X Wins!");
-            GameControllerDOD.Player1Wins += 1;
+            endGame = true;
             return;
         }
         if (recordedWins[1].Equals(2))
         {
             SetBoardInteractable(false);
             SetGameOverText("O Wins!");
-            GameControllerDOD.Player2Wins += 1;
+            endGame = true;
             return;
         }
         RestartGame();

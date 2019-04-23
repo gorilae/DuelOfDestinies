@@ -22,6 +22,9 @@ public class GameManagerSS : MonoBehaviour
     public Button startButton;
     public Image winImage;
     public Text winText;
+    public float endGameTime;
+    public Text player1Name;
+    public Text player2Name;
 
     private int colorSelect;
     private float stayLitCounter;
@@ -36,11 +39,13 @@ public class GameManagerSS : MonoBehaviour
     private int player1Total;
     private int player2Total;
     private bool player1Active;
+    private bool endGame;
 
     // Start is called before the first frame update
     void Start()
     {
         wrongMark.SetActive(false);
+        endGame = false;
         player1Active = true;
         player1Total = 0;
         player2Total = 0;
@@ -49,12 +54,18 @@ public class GameManagerSS : MonoBehaviour
         SetPlayerEnabled(1);
         player1Character.sprite = GameControllerDOD.Player1Character;
         player2Character.sprite = GameControllerDOD.Player2Character;
+        player1Name.text = GameControllerDOD.Player1Name;
+        player2Name.text = GameControllerDOD.Player2Name;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(shouldBeLit)
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+        if (shouldBeLit)
         {
             stayLitCounter -= Time.deltaTime;
             if(stayLitCounter<0)
@@ -110,6 +121,16 @@ public class GameManagerSS : MonoBehaviour
                     EndGame();
                 }
                 activeSequence.Clear();
+            }
+        }
+        if(endGame)
+        {
+            endGameTime -= Time.deltaTime;
+            if(endGameTime<0)
+            {
+                GameControllerDOD.RoundNum = 2;
+                GameControllerDOD.RoundGame = "TTT";
+                Application.LoadLevel("CharacterFight");
             }
         }
     }
@@ -178,6 +199,9 @@ public class GameManagerSS : MonoBehaviour
             winImage.enabled = true;
             SetPlayerEnabled(1);
             GameControllerDOD.Player1Wins += 1;
+            GameControllerDOD.RoundNum = 2;
+            GameControllerDOD.RoundGame = "TTT";
+            endGame = true;
         }
         else if(player2Total>player1Total)
         {
@@ -186,6 +210,9 @@ public class GameManagerSS : MonoBehaviour
             winImage.enabled = true;
             SetPlayerEnabled(2);
             GameControllerDOD.Player2Wins += 1;
+            GameControllerDOD.RoundNum = 2;
+            GameControllerDOD.RoundGame = "TTT";
+            endGame = true;
         }
         else
         {
