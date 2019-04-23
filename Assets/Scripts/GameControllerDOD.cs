@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameControllerDOD : MonoBehaviour
 {
-    private static int player1wins, player2wins;
+    private static int player1wins, player2wins, player1charid, player2charid;
     private static Sprite player1character, player2character;
 
     public static int Player1Wins
@@ -35,11 +35,11 @@ public class GameControllerDOD : MonoBehaviour
     {
         get
         {
-            return player2character;
+            return player1character;
         }
         set
         {
-            player2character = value;
+            player1character = value;
         }
     }
 
@@ -52,6 +52,30 @@ public class GameControllerDOD : MonoBehaviour
         set
         {
             player2character = value;
+        }
+    }
+
+    public static int Player1ID
+    {
+        get
+        {
+            return player1charid;
+        }
+        set
+        {
+            player1charid = value;
+        }
+    }
+
+    public static int Player2ID
+    {
+        get
+        {
+            return player2charid;
+        }
+        set
+        {
+            player2charid = value;
         }
     }
 }

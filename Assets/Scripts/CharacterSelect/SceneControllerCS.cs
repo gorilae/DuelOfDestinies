@@ -51,9 +51,9 @@ public class SceneControllerCS : MonoBehaviour
 
     public void CharactersConfirmed()
     {
-        GameControllerDOD.Player1Character = GetCharacterSprite(player1Character);
-        GameControllerDOD.Player2Character = GetCharacterSprite(player2Character);
-        Application.LoadLevel("ButtonMasher");
+        GameControllerDOD.Player1Character = player1Image.sprite;
+        GameControllerDOD.Player2Character = player2Image.sprite;
+        Application.LoadLevel("SimonSays");
     }
 
     private Sprite GetCharacterSprite(int character)
