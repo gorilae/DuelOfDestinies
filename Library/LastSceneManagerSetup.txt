@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/CharacterFight1.unity
+=======
+- path: Assets/Scenes/MainMenu.unity
+>>>>>>> master
   isLoaded: 1
   isActive: 1
